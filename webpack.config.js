@@ -5,14 +5,14 @@ module.exports = {
   debug: true,
   devtool: 'eval-source-map',
   entry: [
-    'webpack-dev-server/client?http://localhost:8000',
+    'webpack-dev-server/client?http://localhost:8080/',
     'webpack/hot/only-dev-server',
     './src/index.js'
   ],
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
-    publicPath: '/build/'
+    publicPath: 'http://localhost:8080/'
   },
   module: {
     loaders: [{
