@@ -10,4 +10,4 @@ const About = React.createClass({
   }
 })
 
-export default About;
+export default About

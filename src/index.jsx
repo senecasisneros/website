@@ -1,4 +1,5 @@
 // import { Provider } from 'react-redux';
+import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router'
@@ -25,4 +26,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// module.hot.accept();
+module.hot.accept();
