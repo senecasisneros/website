@@ -1,11 +1,13 @@
-import React from "react";
+import React from 'react';
 
-const Skills = () => {
-  return (
-    <div className='skills'>
-      <h1>Skills Page</h1>
-    </div>
-  );
-};
+class Skills extends React.Component {
+  render() {
+    return (
+      <div className="Skills">
+        New Skills Page
+      </div>
+    );
+  }
+}
 
 export default Skills;

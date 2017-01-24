@@ -11,13 +11,12 @@ module.exports = {
     './src/index.jsx'
   ],
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.join(__dirname, 'build'),
     filename: 'bundle.js',
-    publicPath: '/build/'
+    publicPath: '/'
   },
   module: {
     loaders: [
-
       {
         test: /\.jsx?$/,
         include: path.join(__dirname, 'src'),

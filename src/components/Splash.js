@@ -1,11 +1,13 @@
-import React from "react";
+import React from 'react';
 
-const Splash = () => {
-  return (
-    <div className='splash'>
-      <h1>Splash Page</h1>
-    </div>
-  );
-};
+class Splash extends React.Component {
+  render() {
+    return (
+      <div className="Splash">
+        New Splash Page
+      </div>
+    );
+  }
+}
 
 export default Splash;
