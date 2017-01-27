@@ -8,7 +8,7 @@ const App = React.createClass({
     return (
       <div>
         <NavbarPage />
-        <h1>App Page</h1>
+        <h1>Seneca Sisneros</h1>
         {this.props.children}
       </div>
     );

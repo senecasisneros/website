@@ -5,9 +5,9 @@ module.exports = {
   debug: true,
   devtool: 'cheap-module-eval-source-map',
   entry: [
-    'bootstrap-loader',
-    'webpack-dev-server/client?http://localhost:8020',
+    'webpack-dev-server/client?http://localhost:8080',
     'webpack/hot/only-dev-server',
+    'bootstrap-loader',
     './src/index.jsx'
   ],
   output: {

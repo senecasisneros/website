@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router'
 
-import './style.css';
+import './style/style.css';
 
 import App from './components/App';
 import Splash from './components/Splash';
