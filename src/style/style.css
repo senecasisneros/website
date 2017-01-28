@@ -14,3 +14,11 @@
   width: 10%;
   float: left;
 }
+
+li {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  list-style-type: none;
+}
