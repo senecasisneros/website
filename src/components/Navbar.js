@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 class NavbarPage extends React.Component {
   render() {
     return (
-      <div className="Navbar" id="NavbarId">
+      <div className="navbar navbar-default navbar-fixed-top" id="NavbarId">
         <Link to='/'>Home</Link>&nbsp;
         <Link to='/about'>About</Link>&nbsp;
         <Link to='/skills'>Skills</Link>&nbsp;

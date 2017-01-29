@@ -31,7 +31,7 @@ class Skills extends React.Component {
         </div>
         <div className="imgContainer">
           <Image id="node" src="src/style/image/nodejs.jpeg" responsive />
-          <h5>Node</h5>
+          <h5>Node.js</h5>
         </div>
         <div className="imgContainer">
           <Image id="express" src="src/style/image/expressjs.png" responsive />
@@ -39,7 +39,11 @@ class Skills extends React.Component {
         </div>
         <div className="imgContainer">
           <Image id="mongo" src="src/style/image/mongo.jpg" responsive />
-          <h5>Mongo</h5>
+          <h5>MongoDB</h5>
+        </div>
+        <div className="imgContainer">
+          <Image id="mysql" src="src/style/image/mysql.png" responsive />
+          <h5>MySQL</h5>
         </div>
       </div>
     );

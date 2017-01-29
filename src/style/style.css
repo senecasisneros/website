@@ -10,9 +10,11 @@
 }
 
 .imgContainer {
-  height: 10%;
-  width: 10%;
   float: left;
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+
 }
 
 li {
@@ -21,4 +23,25 @@ li {
   text-align: center;
   float: left;
   list-style-type: none;
+}
+
+#email {
+  font-size: 10px;
+  float: right;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.social-icons {
+  padding: 25%;
+}
+
+.About {
+  padding: 25%;
+}
+
+.Skills {
+  padding: 10%;
 }

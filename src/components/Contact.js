@@ -9,9 +9,8 @@ import Email from 'react-icons/lib/fa/envelope-square';
 class Contact extends React.Component {
   render() {
     return (
-      <div className="social-icons">
-        <h1>Contact Page</h1>
-        <ul>
+      <div className="social-div">
+        <ul className="social-icons">
           <li>
             <a href="https://github.com/senecasisneros">
               <h1><GitHub /></h1>
@@ -29,7 +28,7 @@ class Contact extends React.Component {
           </li>
           <li>
             <h2 ><Email />
-            seneca.sisneros@yahoo.com
+            <p id="email">seneca.sisneros@yahoo.com</p>
           </h2>
           </li>
         </ul>
