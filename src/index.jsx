@@ -10,9 +10,8 @@ import App from './components/App';
 import Splash from './components/Splash';
 import About from './components/About';
 import Skills from './components/Skills';
-import Projects from './components/Projects';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-// import NavbarPage from './components/Navbar';
 
 ReactDOM.render(
   <Router history={hashHistory}>
@@ -20,7 +19,7 @@ ReactDOM.render(
       <IndexRoute component={Splash} />
       <Route path="about" component={About}></Route>
       <Route path="skills" component={Skills}></Route>
-      <Route path="projects" component={Projects}></Route>
+      <Route path="portfolio" component={Portfolio}></Route>
       <Route path="contact" component={Contact}></Route>
     </Route>
   </Router>,
