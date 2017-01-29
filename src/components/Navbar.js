@@ -1,6 +1,8 @@
 import React from 'react';
 import { Nav, NavItem, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router';
+import { LinkContainer } from 'react-router-bootstrap';
+
 
 class NavbarPage extends React.Component {
   render() {
@@ -14,11 +16,19 @@ class NavbarPage extends React.Component {
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
-            <Nav>
-              <NavItem eventKey={1}><Link to='/about'>About</Link></NavItem>
-              <NavItem eventKey={2}><Link to='/skills'>Skills</Link></NavItem>
-              <NavItem eventKey={2}><Link to='/portfolio'>Portfolio</Link></NavItem>
-              <NavItem eventKey={2}><Link to='/contact'>Contact</Link></NavItem>
+            <Nav className="skillLinks">
+              <LinkContainer to="/about">
+                <NavItem eventKey={1}>About</NavItem>
+              </LinkContainer>
+              <LinkContainer to="/skills">
+                <NavItem eventKey={2}>Skills</NavItem>
+              </LinkContainer>
+              <LinkContainer to="/portfolio" className='portfolio'>
+                <NavItem eventKey={3}>Portfolio</NavItem>
+              </LinkContainer>
+              <LinkContainer to="/contact">
+                <NavItem eventKey={4}>Contact</NavItem>
+              </LinkContainer>
             </Nav>
             <Nav pullRight>
               <NavItem eventKey={1} href="#">Resume</NavItem>

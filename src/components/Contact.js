@@ -26,39 +26,13 @@ class Contact extends React.Component {
               <h1><Linkedin /></h1>
             </a>
           </li>
-          <li>
-            <h2 ><Email />
-            <p id="email">seneca.sisneros@yahoo.com</p>
-          </h2>
-          </li>
+          <div>
+            <a href="mailto:seneca.sisneros@yahoo.com" className="morebtn">Send Email</a>
+          </div>
         </ul>
       </div>
     );
   }
 }
 
-
 export default Contact;
-// <i className="fa fa-twitter" aria-hidden="true"></i>
-
-
-// <ul className='social-icons'>
-//   <li>
-//     <a href="https://github.com/senecasisneros">
-//       <i className="fa fa-twitter" aria-hidden="true">
-//       </i>
-//     </a>
-//   </li>
-// </ul>
-// <div>
-//   <FA name='twitter' />
-// </div>
-// <div>
-//   <FA name='linkedin' />
-// </div>
-// <div>
-//   <FA name='github' />
-// </div>
-// <div>
-//   <FA name='email' />
-// </div>
