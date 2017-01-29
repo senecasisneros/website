@@ -69,16 +69,15 @@ ul {
 }
 
 /*/////////Skills Component//////////////*/
-
 .Skills {
-  padding: 10%;
+  padding-top: 6%;
+  padding-left: 13%
 }
 
-.skillLinks {
+/*.skillLinks {
   display: inline;
-  padding-right: 100px;
-  margin-left: 50px;
-}
+  /*padding-right: 100px; margin-left: 50px;
+}*/
 
 /*/////////Portfolio Component//////////////*/
 .Portfolio {
