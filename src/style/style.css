@@ -1,20 +1,20 @@
 body {
-  /*background-image: url("https://s3.amazonaws.com/website-seneca/computer-coding.jpg");
+  background-image: url("https://s3.amazonaws.com/website-seneca/computer-coding.jpg");
   background-size: cover;
-  color: white;*/
+  color: white;
   background-color: gray;
 }
 
 #profilePic {
-  height: 30%;
-  width: 30%;
+  height: 15%;
+  width: 15%;
   float: left;
   margin-right: 50px;
 }
 
 #aboutText {
   margin-left: 20px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .imgContainer {
@@ -61,7 +61,6 @@ li {
   display: inline;
   padding-right: 100px;
   margin-left: 50px;
-
 }
 
 .portfolio {
@@ -73,19 +72,39 @@ li {
   text-align: center;
 }
 
-.emailBtn {
-
-}
-
-.social-icons {
-    width: 25%;
-    margin: auto;
-}
-
 .btn {
-  margin: 50%;
+  margin: 30%;
+  background-color: 4682B4;
 }
 
 .Splash {
   margin-top: 10%;
+}
+
+#name {
+  font-size: 70px
+}
+
+#title {
+  font-size: 20px;
+}
+
+/*.social-icons {
+  width: 25%;
+  margin: auto;
+}*/
+
+.social-icons {
+width: 25%;
+list-style: none;
+margin: auto;
+padding:0px;
+}
+
+.social-icons li {
+width: 25%;
+margin: 0px !important;
+padding: 0px !important;
+display: block;
+float: center;
 }
