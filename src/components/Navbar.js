@@ -26,9 +26,6 @@ class NavbarPage extends React.Component {
               <LinkContainer to="/portfolio" className='portfolio'>
                 <NavItem eventKey={3}>Portfolio</NavItem>
               </LinkContainer>
-              <LinkContainer to="/contact">
-                <NavItem eventKey={4}>Contact</NavItem>
-              </LinkContainer>
             </Nav>
             <Nav pullRight>
               <NavItem eventKey={1} href="#">Resume</NavItem>

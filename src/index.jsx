@@ -11,7 +11,6 @@ import Splash from './components/Splash';
 import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
 
 ReactDOM.render(
   <Router history={hashHistory}>
@@ -20,7 +19,6 @@ ReactDOM.render(
       <Route path="about" component={About}></Route>
       <Route path="skills" component={Skills}></Route>
       <Route path="portfolio" component={Portfolio}></Route>
-      <Route path="contact" component={Contact}></Route>
     </Route>
   </Router>,
   document.getElementById('root')

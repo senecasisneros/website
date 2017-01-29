@@ -1,10 +1,10 @@
 body {
-  background-image: url("https://s3.amazonaws.com/website-seneca/computer-coding.jpg");
+  background-image: url("https://s3.amazonaws.com/website-seneca/sunset.jpg");
   background-size: cover;
-  color: white;
-  background-color: gray;
+  color: black;
 }
 
+/*/////////About Component//////////////*/
 #profilePic {
   height: 15%;
   width: 15%;
@@ -22,26 +22,6 @@ body {
   height: 100px;
   width: 100px;
   margin: 25px;
-
-}
-
-li {
-  /*margin: 0;*/
-  /*line-height: 50px;*/
-  text-align: center;
-  float: left;
-  list-style-type: none;
-  height: 50px;
-  width: 50px;
-}
-
-#email {
-  font-size: 10px;
-  float: right;
-}
-
-.navbar {
-  margin-bottom: 0;
 }
 
 .About {
@@ -49,11 +29,48 @@ li {
   padding-top: 70px;
 }
 
-.Skills {
-  padding: 10%;
+
+/*/////////Contact Component//////////////*/
+.socialLi {
+  list-style-type: none;
+  display:inline-block;
 }
 
-.Portfolio {
+.social-icons {
+  text-align: center;
+}
+
+.icons {
+  font-size: 50px;
+}
+
+#email {
+  font-size: 10px;
+  float: right;
+}
+ul {
+  margin-right: 45px;
+}
+
+.emailBtn {
+  margin-bottom: 18px;
+  margin-left: 5px;
+  /*background-color: 4682B4;*/
+}
+
+#emailLink {
+  color: white;
+}
+
+
+/*/////////Navbar Component//////////////*/
+.navbar {
+  margin-bottom: 0;
+}
+
+/*/////////Skills Component//////////////*/
+
+.Skills {
   padding: 10%;
 }
 
@@ -63,22 +80,19 @@ li {
   margin-left: 50px;
 }
 
+/*/////////Portfolio Component//////////////*/
+.Portfolio {
+  padding: 10%;
+}
+
 .portfolio {
   margin-right: 20px;
 }
 
-.Splash {
-  margin: auto;
-  text-align: center;
-}
-
-.btn {
-  margin: 30%;
-  background-color: 4682B4;
-}
-
+/*/////////Splash Component//////////////*/
 .Splash {
   margin-top: 10%;
+  text-align: center;
 }
 
 #name {
@@ -86,25 +100,5 @@ li {
 }
 
 #title {
-  font-size: 20px;
-}
-
-/*.social-icons {
-  width: 25%;
-  margin: auto;
-}*/
-
-.social-icons {
-width: 25%;
-list-style: none;
-margin: auto;
-padding:0px;
-}
-
-.social-icons li {
-width: 25%;
-margin: 0px !important;
-padding: 0px !important;
-display: block;
-float: center;
+  font-size: 25px;
 }

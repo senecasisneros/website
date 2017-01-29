@@ -14,28 +14,25 @@ class Contact extends React.Component {
     return (
       <div className="social-div">
         <ul className="social-icons">
-          <li className="icons">
+          <li className="socialLi">
             <a href="https://github.com/senecasisneros">
-              <h1><GitHub /></h1>
+              <h1 className="icons"><GitHub /></h1>
             </a>
           </li>
-          <li className="icons">
+          <li className="socialLi">
             <a href="https://twitter.com/sen427">
-              <h1><Twitter /></h1>
+              <h1 className="icons"><Twitter /></h1>
             </a>
           </li>
-          <li >
+          <li className="socialLi">
             <a href="https://www.linkedin.com/in/seneca-sisneros-55a63a51">
-              <h1><Linkedin /></h1>
+              <h1 className="icons"><Linkedin /></h1>
             </a>
           </li>
-        <li>
-          <Button>
-            <a href="mailto:seneca.sisneros@yahoo.com" className="emailBtn">Send Email</a>
-          </Button>
-        </li>
+          <li className='socialLi'>
+            <Button bsStyle="primary" bsSize="large" className="emailBtn"><a href="mailto:seneca.sisneros@yahoo.com" id="emailLink">Send Email</a></Button>
+          </li>
       </ul>
-
       </div>
     );
   }
