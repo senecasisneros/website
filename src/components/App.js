@@ -2,6 +2,7 @@ import React from 'react';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 
 import NavbarPage from './Navbar';
+import Footer from './Footer';
 
 const App = React.createClass({
   render() {
@@ -9,6 +10,7 @@ const App = React.createClass({
       <div>
         <NavbarPage />
         {this.props.children}
+        <Footer />
       </div>
     );
   },
@@ -16,19 +18,12 @@ const App = React.createClass({
 
 export default App;
 
-
-
-
-
-// <h3>
-//   <Link to="/about">About</Link>
-// </h3>
-// <h3>
-//   <Link to="/skills">Skills</Link>
-// </h3>
-// <h3>
-//   <Link to="/contact">Contact</Link>
-// </h3>
-// <h3>
-//   <Link to="/projects">Projects</Link>
-// </h3>
+// id="content"
+//
+// <div>
+//   <Header />
+//   <div id="content">
+//
+//   </div>
+//   <Footer />
+// </div>

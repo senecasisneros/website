@@ -8,7 +8,6 @@ import Email from 'react-icons/lib/fa/envelope-square';
 
 import { Button } from 'react-bootstrap';
 
-
 class Contact extends React.Component {
   render() {
     return (

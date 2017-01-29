@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, NavItem, Navbar } from 'react-bootstrap';
+import { Nav, NavItem, Navbar, Panel } from 'react-bootstrap';
 import { Link } from 'react-router';
 import { LinkContainer } from 'react-router-bootstrap';
 

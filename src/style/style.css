@@ -2,7 +2,14 @@ body {
   background-image: url("https://s3.amazonaws.com/website-seneca/sunset.jpg");
   background-size: cover;
   color: black;
+  background-repeat:no-repeat;
+  min-height: 100%;
 }
+
+html {
+  height: 100%;
+}
+
 
 /*/////////About Component//////////////*/
 #profilePic {
@@ -75,8 +82,8 @@ ul {
 }
 
 /*.skillLinks {
-  display: inline;
-  /*padding-right: 100px; margin-left: 50px;
+display: inline;
+/*padding-right: 100px; margin-left: 50px;
 }*/
 
 /*/////////Portfolio Component//////////////*/
@@ -100,4 +107,25 @@ ul {
 
 #title {
   font-size: 25px;
+}
+
+#content {
+  padding-top: 70px;
+  min-height: ~"calc(100vh - 92px)";
+}
+
+footer {
+  border-radius: 0 !important;
+  border-bottom: 0;*/
+  background-color: yellow;
+  margin: 213px 0 0;
+  /*margin: auto;*/
+  /*border: 5px solid black;*/
+  background-color: white;
+}
+
+.copyright {
+  padding-top: @padding-small-horizontal / 2;
+  padding-bottom: @padding-small-horizontal;
+  color: black;
 }
