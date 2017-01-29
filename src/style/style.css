@@ -68,11 +68,24 @@ li {
   margin-right: 20px;
 }
 
-/*.social-icons {
-  padding: 25%;
-}*/
-/*
-.social-icons a {
-  height: 50px;
-  width: 50px;
-}*/
+.Splash {
+  margin: auto;
+  text-align: center;
+}
+
+.emailBtn {
+
+}
+
+.social-icons {
+    width: 25%;
+    margin: auto;
+}
+
+.btn {
+  margin: 50%;
+}
+
+.Splash {
+  margin-top: 10%;
+}
