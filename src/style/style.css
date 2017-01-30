@@ -89,6 +89,7 @@ display: inline;
 /*/////////Portfolio Component//////////////*/
 .Portfolio {
   padding: 10%;
+  text-align: center;
 }
 
 .portfolio {
@@ -102,11 +103,14 @@ display: inline;
 }
 
 #name {
-  font-size: 70px
+  font-size: 85px;
+  /*font-family: 'Shadows Into Light', cursive;*/
+  font-family: 'Great Vibes', cursive;
 }
 
 #title {
   font-size: 25px;
+  font-family: 'Cherry Cream Soda', cursive;
 }
 
 #content {
