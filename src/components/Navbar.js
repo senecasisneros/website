@@ -11,7 +11,7 @@ class NavbarPage extends React.Component {
         <Navbar inverse collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#">Seneca</a>
+              <a className='logo' href="#">Seneca</a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>

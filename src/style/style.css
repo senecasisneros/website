@@ -22,6 +22,7 @@ html {
 #aboutText {
   margin-left: 20px;
   font-size: 17px;
+  font-family: 'Cherry Cream Soda', cursive;
 }
 
 .imgContainer {
@@ -132,4 +133,38 @@ footer {
   padding-top: @padding-small-horizontal / 2;
   padding-bottom: @padding-small-horizontal;
   color: black;
+}
+
+/*/////////Navbar Component//////////////*/
+/*@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}*/
+.navbar {
+  min-height: 75px;
+  /*background-color: black;*/
+}
+
+/*ul.nav a:hover {
+  color: yellow !important;
+}*/
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: 'Cherry Cream Soda', cursive;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.logo {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: 'Cherry Cream Soda', cursive;
 }
