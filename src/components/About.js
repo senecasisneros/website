@@ -12,9 +12,9 @@ class About extends React.Component {
           <p id="aboutText">My name is Seneca Sisneros and I am a full-stack javascript developer. I am a very positive minded individual who enjoys challenging myself and encouraging others to find their happiness. I have two amazing but incredibly spoiled dogs at home that remind me to stay focused on what’s really important in life and I am a firm believer that everything happens for a reason and everyone is on their own unique journey.</p>
           <div id="over">
             <span className="Centerer"></span>
-              <Image className="Centered" id="sedonaFamilyPic" src="https://s3.amazonaws.com/website-seneca/family_Sedona.jpg" responsive thumbnail />
-              <Image className="Centered" id="profilePic" src="https://s3.amazonaws.com/website-seneca/senecaPic.jpg" responsive thumbnail />
-              <Image className="Centered" id="pupsPic" src="https://s3.amazonaws.com/website-seneca/Pups.jpg" responsive thumbnail />
+            <Image className="Centered" id="sedonaFamilyPic" src="https://s3.amazonaws.com/website-seneca/family_Sedona.jpg" responsive thumbnail />
+            <Image className="Centered" id="profilePic" src="https://s3.amazonaws.com/website-seneca/senecaPic.jpg" responsive thumbnail />
+            <Image className="Centered" id="pupsPic" src="https://s3.amazonaws.com/website-seneca/Pups.jpg" responsive thumbnail />
           </div>
         </div>
       </div>
@@ -23,5 +23,3 @@ class About extends React.Component {
 }
 
 export default About;
-
-// <img className="Centered" src="https://s3.amazonaws.com/website-seneca/family_Sedona.jpg" />

@@ -37,11 +37,7 @@ html {
 
 #aboutText {
   margin: 40px;
-  /*margin-top: 20px;*/
   font-size: 17px;
-  /*float:right;*/
-  /*font-family: 'Cherry Cream Soda', cursive;*/
-  /*text-align: left;*/
   font-family: 'Gloria Hallelujah', cursive;
 }
 
@@ -52,42 +48,27 @@ html {
   text-align: center;
 }
 
-.aboutImages {
-
-  /*margin-left: auto;
-  margin-right: auto;
-  display: block;*/
-  /*margin-right: 50%;*/
-  /*position: absolute;*/
-  /*margin-left: 325px;
-  margin-top: 30px;*/
-  /*margin-right: 50px; /*half the image width*/
-}
-
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #over {
-    position:absolute;
-    margin-top: 30px;
-    /*width:100%;
-    height:100%;*/
-    text-align: center;
+  position:absolute;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .Centerer {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .Centered {
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
-
 
 #aboutMe {
   text-align: center;
@@ -104,7 +85,6 @@ html {
 
 .About {
   padding: 1%;
-  /*padding-top: 70px;*/
 }
 
 
@@ -133,7 +113,6 @@ ul {
 .emailBtn {
   margin-bottom: 18px;
   margin-left: 5px;
-  /*background-color: 4682B4;*/
 }
 
 #emailLink {
@@ -141,31 +120,19 @@ ul {
 }
 
 
-/*/////////Navbar Component//////////////*/
-.navbar {
-  /*margin-bottom: -60px;*/
-}
-
 /*/////////Skills Component//////////////*/
 .Skills {
-  /*padding-top: 50%;*/
   padding-left: 10%;
   text-align: center;
   display:block;
 }
 
 .skillHeader {
-  /*padding-left: 50%;*/
-  /*margin-top: 100px;*/
   font-size: 50px;
   text-align: center;
   font-family: 'Gloria Hallelujah', cursive;
 }
 
-/*.skillLinks {
-display: inline;
-/*padding-right: 100px; margin-left: 50px;
-}*/
 
 /*/////////Portfolio Component//////////////*/
 .Portfolio {
@@ -187,13 +154,13 @@ display: inline;
   font-size: 85px;
   /*font-family: 'Shadows Into Light', cursive;*/
   /*font-family: 'Great Vibes', cursive;*/
+  /*font-family: 'Cherry Cream Soda', cursive;*/
   font-family: 'Gloria Hallelujah', cursive;
 
 }
 
 #title {
   font-size: 25px;
-  /*font-family: 'Cherry Cream Soda', cursive;*/
   font-family: 'Gloria Hallelujah', cursive;
 
 }
@@ -208,8 +175,6 @@ footer {
   border-bottom: 0;*/
   background-color: yellow;
   margin: 213px 0 0;
-  /*margin: auto;*/
-  /*border: 5px solid black;*/
   background-color: white;
 }
 
@@ -220,19 +185,9 @@ footer {
 }
 
 /*/////////Navbar Component//////////////*/
-/*@media (min-width: 1200px) {
-.container{
-max-width: 970px;
-}
-}*/
 .navbar {
   min-height: 75px;
-  /*background-color: black;*/
 }
-
-/*ul.nav a:hover {
-color: yellow !important;
-}*/
 
 .navbar .navbar-nav {
   display: inline-block;
@@ -241,7 +196,6 @@ color: yellow !important;
   margin-top: 10px;
   font-size: 18px;
   font-family: 'Gloria Hallelujah', cursive;
-  /*font-family: 'Cherry Cream Soda', cursive;*/
 }
 
 .navbar .navbar-collapse {
@@ -252,6 +206,4 @@ color: yellow !important;
   margin-top: 10px;
   font-size: 25px;
   font-family: 'Gloria Hallelujah', cursive;
-
-  /*font-family: 'Cherry Cream Soda', cursive;*/
 }
