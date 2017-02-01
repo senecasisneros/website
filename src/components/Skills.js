@@ -14,6 +14,18 @@ class Skills extends React.Component {
             <h5>JavaScript</h5>
           </div>
           <div className="imgContainer">
+            <Image id="node" className="animated flip" src="src/style/image/nodejs.png" responsive />
+            <h5>Node.js</h5>
+          </div>
+          <div className="imgContainer">
+            <Image id="express" className="animated flip" src="src/style/image/express.png" responsive />
+            <h5>Express</h5>
+          </div>
+          <div className="imgContainer">
+            <Image id="mongo" className="animated flip" src="src/style/image/Mongo.png" responsive />
+            <h5>MongoDB</h5>
+          </div>
+          <div className="imgContainer">
             <Image id="html" className="animated flip" src="src/style/image/html5.svg" responsive />
             <h5>HTML5</h5>
           </div>
@@ -30,23 +42,15 @@ class Skills extends React.Component {
             <h5>React</h5>
           </div>
           <div className="imgContainer">
+            <Image id="flux" className="animated flip" src="src/style/image/flux.png" responsive />
+            <h5>Flux</h5>
+          </div>
+          <div className="imgContainer">
             <Image id="redux" className="animated flip" src="src/style/image/redux.png" responsive />
             <h5>Redux</h5>
           </div>
           <div className="imgContainer">
-            <Image id="node" className="animated flip" src="src/style/image/nodejs.jpeg" responsive />
-            <h5>Node.js</h5>
-          </div>
-          <div className="imgContainer">
-            <Image id="express" className="animated flip" src="src/style/image/expressjs.png" responsive />
-            <h5>Express</h5>
-          </div>
-          <div className="imgContainer">
-            <Image id="mongo" className="animated flip" src="src/style/image/mongo.jpg" responsive />
-            <h5>MongoDB</h5>
-          </div>
-          <div className="imgContainer">
-            <Image id="mysql" className="animated flip" src="src/style/image/mysql.png" responsive />
+            <Image id="mysql" className="animated flip" src="src/style/image/sql.png" responsive />
             <h5>MySQL</h5>
           </div>
         </div>

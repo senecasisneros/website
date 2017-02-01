@@ -59,7 +59,7 @@ html {
   text-align: center;
 }
 
-.Centerer {
+#Centerer {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
@@ -122,12 +122,14 @@ ul {
 
 /*/////////Skills Component//////////////*/
 .Skills {
-  padding-left: 10%;
+  /*padding-left: 10%;*/
   text-align: center;
   display:block;
+  margin: 30px 200px 20px;
 }
 
 .skillHeader {
+  margin-top: 35px;
   font-size: 50px;
   text-align: center;
   font-family: 'Gloria Hallelujah', cursive;
