@@ -9,20 +9,54 @@ body {
 html {
   height: 100%;
 }
-
-
 /*/////////About Component//////////////*/
 #profilePic {
-  height: 15%;
-  width: 15%;
-  float: left;
-  margin-right: 50px;
+  height: 20%;
+  width: 20%;
+}
+
+#pupsPic {
+  height: 20%;
+  width: 20%;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+#sedonaFamilyPic {
+  height: 20%;
+  width: 20%;
+  -webkit-transform: rotate(80deg);
+  -moz-transform: rotate(80deg);
+  -ms-transform: rotate(80deg);
+  -o-transform: rotate(80deg);
+  transform: rotate(-20deg);
 }
 
 #aboutText {
-  margin-left: 20px;
+  /*margin-top: 20px;*/
   font-size: 17px;
-  font-family: 'Cherry Cream Soda', cursive;
+  /*float:right;*/
+  /*font-family: 'Cherry Cream Soda', cursive;*/
+  /*text-align: left;*/
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.aboutImages {
+  /*margin-right: 50%;*/
+
+  /*position: absolute;*/
+  margin-left: 340px;;
+  margin-top: 30px;
+  /*margin-right: 50px; /*half the image width*/
+}
+
+#aboutMe {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .imgContainer {
@@ -33,8 +67,8 @@ html {
 }
 
 .About {
-  padding: 5%;
-  padding-top: 70px;
+  padding: 1%;
+  /*padding-top: 70px;*/
 }
 
 
@@ -73,13 +107,23 @@ ul {
 
 /*/////////Navbar Component//////////////*/
 .navbar {
-  margin-bottom: 0;
+  /*margin-bottom: -60px;*/
 }
 
 /*/////////Skills Component//////////////*/
 .Skills {
-  padding-top: 6%;
-  padding-left: 13%
+  /*padding-top: 50%;*/
+  padding-left: 10%;
+  text-align: center;
+  display:block;
+}
+
+.skillHeader {
+  /*padding-left: 50%;*/
+  /*margin-top: 100px;*/
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 /*.skillLinks {
@@ -137,9 +181,9 @@ footer {
 
 /*/////////Navbar Component//////////////*/
 /*@media (min-width: 1200px) {
-    .container{
-        max-width: 970px;
-    }
+.container{
+max-width: 970px;
+}
 }*/
 .navbar {
   min-height: 75px;
@@ -147,7 +191,7 @@ footer {
 }
 
 /*ul.nav a:hover {
-  color: yellow !important;
+color: yellow !important;
 }*/
 
 .navbar .navbar-nav {
@@ -155,8 +199,9 @@ footer {
   float: none;
   vertical-align: top;
   margin-top: 10px;
-  font-size: 20px;
-  font-family: 'Cherry Cream Soda', cursive;
+  font-size: 18px;
+  font-family: 'Gloria Hallelujah', cursive;
+  /*font-family: 'Cherry Cream Soda', cursive;*/
 }
 
 .navbar .navbar-collapse {
@@ -165,6 +210,8 @@ footer {
 
 .logo {
   margin-top: 10px;
-  font-size: 20px;
-  font-family: 'Cherry Cream Soda', cursive;
+  font-size: 25px;
+  font-family: 'Gloria Hallelujah', cursive;
+
+  /*font-family: 'Cherry Cream Soda', cursive;*/
 }
