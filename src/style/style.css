@@ -11,13 +11,13 @@ html {
 }
 /*/////////About Component//////////////*/
 #profilePic {
-  height: 20%;
-  width: 20%;
+  height: 15%;
+  width: 15%;
 }
 
 #pupsPic {
-  height: 20%;
-  width: 20%;
+  height: 12%;
+  width: 12%;
   -webkit-transform: rotate(20deg);
   -moz-transform: rotate(20deg);
   -ms-transform: rotate(20deg);
@@ -26,8 +26,8 @@ html {
 }
 
 #sedonaFamilyPic {
-  height: 20%;
-  width: 20%;
+  height: 12%;
+  width: 12%;
   -webkit-transform: rotate(80deg);
   -moz-transform: rotate(80deg);
   -ms-transform: rotate(80deg);
@@ -36,6 +36,7 @@ html {
 }
 
 #aboutText {
+  margin: 40px;
   /*margin-top: 20px;*/
   font-size: 17px;
   /*float:right;*/
@@ -44,14 +45,49 @@ html {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
-.aboutImages {
-  /*margin-right: 50%;*/
+#quote {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 15px;
+  margin: 40px;
+  text-align: center;
+}
 
+.aboutImages {
+
+  /*margin-left: auto;
+  margin-right: auto;
+  display: block;*/
+  /*margin-right: 50%;*/
   /*position: absolute;*/
-  margin-left: 260px;;
-  margin-top: 30px;
+  /*margin-left: 325px;
+  margin-top: 30px;*/
   /*margin-right: 50px; /*half the image width*/
 }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#over {
+    position:absolute;
+    margin-top: 30px;
+    /*width:100%;
+    height:100%;*/
+    text-align: center;
+}
+
+.Centerer {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.Centered {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
 #aboutMe {
   text-align: center;
