@@ -36,15 +36,17 @@ html {
 }
 
 #aboutText {
-  margin: 40px;
-  font-size: 17px;
-  font-family: 'Gloria Hallelujah', cursive;
+  margin: 25px;
+  font-size: 25px;
+  font-family: 'Rancho', cursive;
+  /*font-family: 'Gloria Hallelujah', cursive;*/
 }
 
 #quote {
-  font-family: 'Gloria Hallelujah', cursive;
-  font-size: 15px;
-  margin: 40px;
+  font-family: 'Rancho', cursive;
+  /*font-family: 'Gloria Hallelujah', cursive;*/
+  font-size: 20px;
+  margin: 25px;
   text-align: center;
 }
 
@@ -73,7 +75,8 @@ html {
 #aboutMe {
   text-align: center;
   font-size: 50px;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Rancho', cursive;
+  /*font-family: 'Gloria Hallelujah', cursive;*/
 }
 
 .imgContainer {
@@ -106,9 +109,6 @@ html {
   font-size: 10px;
   float: right;
 }
-ul {
-  margin-right: 45px;
-}
 
 .emailBtn {
   margin-bottom: 18px;
@@ -132,7 +132,8 @@ ul {
   margin-top: 35px;
   font-size: 50px;
   text-align: center;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Rancho', cursive;
+  /*font-family: 'Gloria Hallelujah', cursive;*/
 }
 
 
@@ -153,17 +154,20 @@ ul {
 }
 
 #name {
-  font-size: 85px;
+  font-family: 'Rancho', cursive;
+  /*font-family: 'Architects Daughter', cursive;*/
+  font-size: 90px;
   /*font-family: 'Shadows Into Light', cursive;*/
   /*font-family: 'Great Vibes', cursive;*/
   /*font-family: 'Cherry Cream Soda', cursive;*/
-  font-family: 'Gloria Hallelujah', cursive;
+  /*font-family: 'Gloria Hallelujah', cursive;*/
 
 }
 
 #title {
-  font-size: 25px;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 35px;
+  font-family: 'Rancho', cursive;
+  /*font-family: 'Gloria Hallelujah', cursive;*/
 
 }
 
@@ -196,8 +200,9 @@ footer {
   float: none;
   vertical-align: top;
   margin-top: 10px;
-  font-size: 18px;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 23px;
+  font-family: 'Rancho', cursive;
+  /*font-family: 'Gloria Hallelujah', cursive;*/
 }
 
 .navbar .navbar-collapse {
@@ -206,6 +211,7 @@ footer {
 
 .logo {
   margin-top: 10px;
-  font-size: 25px;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 40px;
+  font-family: 'Rancho', cursive;
+  /*font-family: 'Gloria Hallelujah', cursive;*/
 }
