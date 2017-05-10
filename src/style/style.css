@@ -2,13 +2,12 @@ body {
   background-image: url("https://s3.amazonaws.com/website-seneca/sunset.jpg");
   background-size: cover;
   color: black;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
+  min-width: 100%;
   min-height: 100%;
 }
 
-html {
-  height: 100%;
-}
+
 /*/////////About Component//////////////*/
 #profilePic {
   height: 15%;
@@ -125,7 +124,8 @@ html {
   /*padding-left: 10%;*/
   text-align: center;
   display:block;
-  margin: 30px 200px 20px;
+  margin: 30px 135px 30px;
+  /*position: relative;*/
 }
 
 .skillHeader {
@@ -156,7 +156,7 @@ html {
 #name {
   font-family: 'Rancho', cursive;
   /*font-family: 'Architects Daughter', cursive;*/
-  font-size: 90px;
+  font-size: 100px;
   /*font-family: 'Shadows Into Light', cursive;*/
   /*font-family: 'Great Vibes', cursive;*/
   /*font-family: 'Cherry Cream Soda', cursive;*/
@@ -165,7 +165,7 @@ html {
 }
 
 #title {
-  font-size: 35px;
+  font-size: 45px;
   font-family: 'Rancho', cursive;
   /*font-family: 'Gloria Hallelujah', cursive;*/
 
@@ -179,9 +179,8 @@ html {
 footer {
   border-radius: 0 !important;
   border-bottom: 0;*/
-  background-color: yellow;
   margin: 213px 0 0;
-  background-color: white;
+  background-color: #fff;
 }
 
 .copyright {

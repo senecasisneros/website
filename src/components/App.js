@@ -8,11 +8,10 @@ const App = React.createClass({
   render() {
     return (
       <div>
-        <NavbarPage />
-        {this.props.children}
+        <NavbarPage/> {this.props.children}
       </div>
     );
-  },
+  }
 });
 
 export default App;
