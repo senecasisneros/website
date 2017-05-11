@@ -49,10 +49,10 @@ body {
   text-align: center;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
+/** {
+padding: 0;
+margin: 0;
+}*/
 
 #over {
   position:absolute;
@@ -141,7 +141,7 @@ body {
 }
 
 .portTitle {
-  margin-top: 35px;
+  /*margin-top: 35px;*/
   font-size: 50px;
   text-align: center;
   font-family: 'Rancho', cursive;
@@ -151,6 +151,11 @@ body {
 .portVideo {
   float: left;
   margin: 50px 20px 110px 30px;
+  /*
+  might need to make responsive
+  max-width: 75%;
+  display:block;
+  height: auto;*/
 }
 
 .textPort {
@@ -225,21 +230,21 @@ footer {
   /*font-family: 'Gloria Hallelujah', cursive;*/
 }
 
-/*.Port {
-  float: left;
-  display:inline-block;
-}
-
-.iconsPort {
-  text-align: center;
-}*/
-
-.portLi {
-  list-style-type: none;
-  display:inline-block;
-  margin: 10px;
-}
 
 .port-icons {
   text-align: center;
+}
+
+show-grid {
+  /*padding: 20px;*/
+  /*float: left;*/
+}
+
+.colPort {
+  /*margin-top: 25px;*/
+}
+
+.portVid {
+  width: 100%;
+  length: 100%;
 }
