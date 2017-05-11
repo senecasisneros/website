@@ -7,13 +7,13 @@ class Skills extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="skillHeader text-center">Skills</h1>
-      <div className="Skills text-center">
+        <h1 className="skillHeader">Skills</h1>
+      <div className="Skills">
           <div className="imgContainer">
             <Image id="javaScript" className="animated flip" src="src/style/image/javaScript.png" responsive />
           <h5>JavaScript</h5>
           </div>
-          <div className="imgContainer text-center">
+          <div className="imgContainer">
             <Image id="node" className="animated flip" src="src/style/image/nodejs.png" responsive />
             <h5>Node.js</h5>
           </div>

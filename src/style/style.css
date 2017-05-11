@@ -82,7 +82,7 @@ body {
   float: left;
   height: 100px;
   width: 100px;
-  margin: 25px;
+  margin: 50px 75px 0px 75px;
 }
 
 .About {
@@ -121,11 +121,9 @@ body {
 
 /*/////////Skills Component//////////////*/
 .Skills {
-  /*padding-left: 10%;*/
   text-align: center;
   display:block;
-  margin: 30px 135px 30px;
-  /*position: relative;*/
+  margin: 0px 135px 45px;
 }
 
 .skillHeader {
@@ -133,18 +131,47 @@ body {
   font-size: 50px;
   text-align: center;
   font-family: 'Rancho', cursive;
-  /*font-family: 'Gloria Hallelujah', cursive;*/
 }
 
 
 /*/////////Portfolio Component//////////////*/
+/*.portTitle {
+text-align: center;
+font-family: 'Rancho', cursive;
+font-size: 50px;
+margin-top: 10px;
+}
+
 .Portfolio {
-  padding: 10%;
-  text-align: center;
+text-align: center;
+display:block;
 }
 
 .portfolio {
-  margin-right: 20px;
+margin-right: 20px;
+}*/
+
+.Portfolio {
+  /*padding-left: 10%;*/
+  text-align: center;
+  display:block;
+  /*margin: 0px 135px 45px;*/
+  /*position: relative;*/
+}
+
+.portTitle {
+  margin-top: 35px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Rancho', cursive;
+  /*font-family: 'Gloria Hallelujah', cursive;*/
+}
+
+.portVideo {
+  float: left;
+  /*width: 120px;*/
+  /*height: auto;*/
+  margin: 50px 25px 110px 25px;
 }
 
 /*/////////Splash Component//////////////*/
