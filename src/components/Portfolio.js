@@ -8,7 +8,7 @@ class Portfolio extends React.Component {
   render() {
     return (
       <Grid className='Portfolio'>
-        <h1 className="portTitle">Portfolio page</h1>
+        <h1 className="portTitle">Portfolio</h1>
         <Row className="show-grid">
           <Col className="colPort" xs={12} sm={6} lg={4}>
             <img className="portVid" name="Name" src="https://media.giphy.com/media/j9xQVAZtsguUo/giphy.gif"></img>

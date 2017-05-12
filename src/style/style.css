@@ -122,7 +122,7 @@ margin: 0;
 }
 
 .iconNew {
-  width: 150px;
+  width: 140px;
   length: 150px;
   display: inline-block;
   float: none;
@@ -138,6 +138,7 @@ margin: 0;
 .Portfolio {
   text-align: center;
   font-family: 'Rancho', cursive;
+  color: white;
 }
 
 .portTitle {
@@ -188,14 +189,14 @@ margin: 0;
 
 /*/////////Navbar Component//////////////*/
 .navbar {
-  min-height: 75px;
+  min-height: 62px;
 }
 
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
-  margin-top: 10px;
+  margin-top: 7px;
   font-size: 23px;
   font-family: 'Rancho', cursive;
   /*font-family: 'Gloria Hallelujah', cursive;*/
@@ -206,7 +207,7 @@ margin: 0;
 }
 
 .logo {
-  margin-top: 10px;
+  margin-top: 7px;
   font-size: 40px;
   font-family: 'Rancho', cursive;
   /*font-family: 'Gloria Hallelujah', cursive;*/
