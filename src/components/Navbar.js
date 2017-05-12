@@ -27,9 +27,6 @@ class NavbarPage extends React.Component {
                 <NavItem eventKey={3}>Portfolio</NavItem>
               </LinkContainer>
             </Nav>
-            <Nav pullRight>
-              <NavItem eventKey={1} href="#">Resume</NavItem>
-            </Nav>
           </Navbar.Collapse>
         </Navbar>
       </div>
@@ -37,3 +34,9 @@ class NavbarPage extends React.Component {
   }
 }
 export default NavbarPage;
+
+
+
+{/* <Nav pullRight>
+  <NavItem eventKey={1} href="#">Resume</NavItem>
+</Nav> */}
