@@ -9,6 +9,7 @@ const App = React.createClass({
     return (
       <div>
         <NavbarPage/> {this.props.children}
+        <Footer/> 
       </div>
     );
   }

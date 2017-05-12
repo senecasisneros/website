@@ -49,10 +49,10 @@ body {
   text-align: center;
 }
 
-/** {
-padding: 0;
-margin: 0;
-}*/
+* {
+  padding: 0;
+  margin: 0;
+}
 
 #over {
   position:absolute;
@@ -86,7 +86,7 @@ margin: 0;
 }
 
 .About {
-  padding: 1%;
+  padding: 0%;
 }
 
 
@@ -122,16 +122,29 @@ margin: 0;
 /*/////////Skills Component//////////////*/
 .Skills {
   text-align: center;
-  /*display:block;*/
-  /*margin: 0px 135px 45px;*/
 }
 
 .skillHeader {
-  margin-top: 15px;
+  margin-top: 0px;
   font-size: 50px;
   text-align: center;
   font-family: 'Rancho', cursive;
 }
+
+.iconNew {
+  width: 150px;
+  length: 150px;
+  /*margin: 15px 30px 24px 100px;*/
+  display: inline-block;
+  float: none;
+  /*text-align: left;*/
+  /*margin: 20px;*/
+}
+
+.row-centered {
+  text-align:center;
+}
+
 
 
 /*/////////Portfolio Component//////////////*/
@@ -141,25 +154,20 @@ margin: 0;
 }
 
 .portTitle {
-  /*margin-top: 35px;*/
+  margin-bottom: 35px;
   font-size: 50px;
   text-align: center;
   font-family: 'Rancho', cursive;
   /*font-family: 'Gloria Hallelujah', cursive;*/
 }
 
-.portVideo {
-  float: left;
-  margin: 50px 20px 110px 30px;
-  /*
-  might need to make responsive
-  max-width: 75%;
-  display:block;
-  height: auto;*/
-}
-
 .textPort {
   font-size: 20px;
+}
+
+.portVid {
+  width: 100%;
+  length: 100%;
 }
 
 /*/////////Splash Component//////////////*/
@@ -191,19 +199,6 @@ margin: 0;
   min-height: ~"calc(100vh - 92px)";
 }
 
-footer {
-  border-radius: 0 !important;
-  border-bottom: 0;*/
-  margin: 213px 0 0;
-  background-color: #fff;
-}
-
-.copyright {
-  padding-top: @padding-small-horizontal / 2;
-  padding-bottom: @padding-small-horizontal;
-  color: black;
-}
-
 /*/////////Navbar Component//////////////*/
 .navbar {
   min-height: 75px;
@@ -230,23 +225,22 @@ footer {
   /*font-family: 'Gloria Hallelujah', cursive;*/
 }
 
+.copyright {
+  padding-top: @padding-small-horizontal / 2;
+  padding-bottom: @padding-small-horizontal;
+  color: white;
+  padding: 12px;
+}
 
-.portVid {
+#footer {
+  height: 50px;
   width: 100%;
-  length: 100%;
-}
-
-.iconNew {
-  width: 150px;
-  length: 150px;
-  /*margin: 15px 30px 24px 100px;*/
-  display:inline-block;
-  float:none;
-  text-align:left;
-  margin: 20px;
-}
-
-.row-centered {
-  text-align:center;
-
+  background-color: #262626;
+  /*margin-top: 25px;*/
+  /*padding-top: 15px;*/
+  text-align: center;
+  /*padding-bottom: 100px;*/
+  position: fixed;
+  bottom: 0;
+  border-top: white solid 1px;
 }
