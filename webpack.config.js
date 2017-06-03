@@ -1,11 +1,11 @@
 module.exports = {
   entry: [
-    './src/index.js'
+    './src/index.js',
   ],
   output: {
     path: __dirname,
     publicPath: '/',
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
   module: {
     loaders: [{
@@ -31,12 +31,8 @@ module.exports = {
     // Bootstrap 3 jquery requirement
     { test:/bootstrap-sass[\/\\]assets[\/\\]javascripts[\/\\]/, loader: 'imports?jQuery=jquery' }
   ]
-},
-resolve: {
-  extensions: ['', '.js', '.jsx']
-}
-// devServer: {
-//   historyApiFallback: true,
-//   contentBase: './'
-// }
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  }
 };
