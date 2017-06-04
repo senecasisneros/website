@@ -1,5 +1,7 @@
-body {
-  background-image: url("https://s3.amazonaws.com/website-seneca/ventura_rocks.jpg");
+
+/*/////////About Component//////////////*/
+.About {
+  background-image: url("https://s3.amazonaws.com/website-seneca/journey.jpg");
   color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,76 +11,97 @@ body {
   max-height: auto;
 
 
-  min-height: 400px;
-  margin-bottom: 100px;
-  clear: both;
+  min-height: 625px;
+  /*margin-bottom: 100px;*/
+  /*clear: both;*/
 
 }
 
-
-/*/////////About Component//////////////*/
-#profilePic {
-  height: 22%;
-  width: 22%;
-}
-
-#pupsPic {
+.imgAbout1 {
   height: 12%;
   width: 12%;
-  -webkit-transform: rotate(20deg);
-  -moz-transform: rotate(20deg);
-  -ms-transform: rotate(20deg);
-  -o-transform: rotate(20deg);
-  transform: rotate(20deg);
+  float: right;
+  margin-top: 2%;
+  margin-right: 5%;
 }
 
-#sedonaFamilyPic {
+.imgAbout2 {
   height: 12%;
   width: 12%;
-  -webkit-transform: rotate(80deg);
-  -moz-transform: rotate(80deg);
-  -ms-transform: rotate(80deg);
-  -o-transform: rotate(80deg);
-  transform: rotate(-20deg);
+  float: right;
+  margin-top: 2%;
+  margin-right: 2%;
 }
 
-#aboutText {
-  margin: 25px;
-  font-size: 25px;
-  font-family: 'Rancho', cursive;
-  /*font-family: 'Gloria Hallelujah', cursive;*/
+.imgDiv1 {
+/*float: right;*/
 }
 
-#quote {
-  font-family: 'Rancho', cursive;
-  /*font-family: 'Gloria Hallelujah', cursive;*/
-  font-size: 20px;
-  margin: 25px;
-  text-align: center;
-}
-
-/** {
-padding: 0;
-margin: 0;
-}*/
-
-.imageWrap {
-  position: relative;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  transform: -webkit-translate(-50%, -50%);
-  transform: -moz-translate(-50%, -50%);
-  transform: -ms-translate(-50%, -50%);
+#about {
+  /*float: left;*/
 }
 
 #aboutMe {
   text-align: center;
   font-size: 35px;
   font-family: 'Rancho', cursive;
-  /*font-family: 'Gloria Hallelujah', cursive;*/
+  padding-top: 2%;
+  color: black;
+  text-shadow: 1px 1px white;
 }
 
+#quote {
+  font-family: 'Rancho', cursive;
+  font-size: 25px;
+  margin: 25px;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px white;
+}
+
+#aboutText {
+  margin: 30px;
+  font-size: 25px;
+  font-family: 'Rancho', cursive;
+  color: white;
+}
+
+
+
+/*
+.imageWrap {
+position: relative;
+top: 50%;
+left: 30%;
+transform: translate(-50%, -50%);
+transform: -webkit-translate(-50%, -50%);
+transform: -moz-translate(-50%, -50%);
+transform: -ms-translate(-50%, -50%);
+}*/
+/*#profilePic {
+height: 22%;
+width: 22%;
+}
+
+#pupsPic {
+height: 12%;
+width: 12%;
+-webkit-transform: rotate(20deg);
+-moz-transform: rotate(20deg);
+-ms-transform: rotate(20deg);
+-o-transform: rotate(20deg);
+transform: rotate(20deg);
+}
+
+#sedonaFamilyPic {
+height: 12%;
+width: 12%;
+-webkit-transform: rotate(80deg);
+-moz-transform: rotate(80deg);
+-ms-transform: rotate(80deg);
+-o-transform: rotate(80deg);
+transform: rotate(-20deg);
+}*/
 
 /*/////////Contact Component//////////////*/
 .socialLi {
@@ -162,12 +185,26 @@ margin: 0;
 .portVid {
   width: 100%;
   length: 100%;
+  box-shadow: 5px 5px 5px #888888;
 }
 
 /*/////////Splash Component//////////////*/
 .splash {
   /*margin-top: 10%;*/
   text-align: center;
+  background-image: url("https://s3.amazonaws.com/website-seneca/ventura_rocks.jpg");
+  color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center center;
+  background-attachment: fixed;
+  max-width: 100%;
+  max-height: auto;
+
+
+  min-height: 650px;
+  /*margin-bottom: 100px;*/
+  clear: both;
 }
 
 #name {
@@ -197,6 +234,7 @@ margin: 0;
 /*/////////Navbar Component//////////////*/
 .navbar {
   min-height: 62px;
+  margin-bottom: -20px;
 
 }
 
