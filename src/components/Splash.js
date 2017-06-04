@@ -10,7 +10,7 @@ class Splash extends React.Component {
       <h1 id="name" className="animated fadeInUpBig">Seneca Sisneros</h1>
       <h3 id="title">Full-Stack Javascript Developer</h3>
       <Contact />
-      <Image className="aboutImages animated fadeInLeftBig" id="profilePic" src="https://s3.amazonaws.com/website-seneca/senecaPic.jpg" responsive thumbnail />
+    <Image className="aboutImages animated zoomIn" id="profilePic" src="https://s3.amazonaws.com/website-seneca/senecaPic.jpg" responsive thumbnail />
       </div>
     );
   }

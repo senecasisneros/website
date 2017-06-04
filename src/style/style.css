@@ -233,3 +233,20 @@ margin: 0;
   bottom: 0;
   border-top: white solid 1px;
 }
+
+.social-div {
+  margin-right: 45px;
+}
+
+.logo {
+  width: 50px;
+}
+
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand>img {
+  padding: 7px 14px;
+}
