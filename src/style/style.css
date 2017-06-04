@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://s3.amazonaws.com/website-seneca/sunset.jpg");
+  background-image: url("https://s3.amazonaws.com/website-seneca/ventura_rocks.jpg");
   color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,8 +18,8 @@ body {
 
 /*/////////About Component//////////////*/
 #profilePic {
-  height: 20%;
-  width: 20%;
+  height: 22%;
+  width: 22%;
 }
 
 #pupsPic {
@@ -88,10 +88,16 @@ margin: 0;
 
 .social-icons {
   text-align: center;
+  margin-top: -10px;
 }
 
 .icons {
   font-size: 50px;
+  color: white;
+}
+
+.icons:hover {
+  color: rgb(23, 70, 131);
 }
 
 #email {
@@ -191,6 +197,22 @@ margin: 0;
 /*/////////Navbar Component//////////////*/
 .navbar {
   min-height: 62px;
+
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: rgb(23, 70, 131);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+.navbar-inverse .navbar-brand:hover {
+  color: rgb(23, 70, 131);
 }
 
 .navbar .navbar-nav {
@@ -205,6 +227,7 @@ margin: 0;
 
 .navbar .navbar-collapse {
   text-align: center;
+
 }
 
 .logo {
