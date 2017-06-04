@@ -8,7 +8,7 @@ class Skills extends React.Component {
   render() {
     return (
       <Grid className='Skills'>
-        <h1 className="skillHeader">Skills</h1>
+        {/* <h1 className="skillHeader">Skills</h1> */}
         <Row className="show-grid row-centered">
           <Col className="iconNew" xs={12} sm={6} lg={4}>
             <Image id="javaScript" className="animated flip" src="src/style/image/javaScript.png" responsive/>
