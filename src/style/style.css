@@ -181,8 +181,8 @@ transform: rotate(-20deg);
   text-align: center;
   font-family: 'Rancho', cursive;
   color: white;
-  margin-top: 1%;
-  background-image: url("https://s3.amazonaws.com/website-seneca/desk_notepad.jpeg");
+  /*margin-top: 1%;*/
+  background-image: url("https://s3.amazonaws.com/website-seneca/blue.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center center;
@@ -205,10 +205,24 @@ transform: rotate(-20deg);
   font-size: 20px;
 }
 
+.textInfo {
+  font-size: 20px;
+  color: white;
+  margin-top: 15px;
+  /*margin-bottom: -5px;*/
+}
+
 .portVid {
   width: 100%;
   length: 100%;
+  margin-top: -8px;
   /*box-shadow: 5px 5px 5px #888888;*/
+}
+
+.titlePort {
+  color: white;
+  /*text-shadow: 1px 1px white;*/
+  margin-top: 50px;
 }
 
 /*/////////Splash Component//////////////*/
@@ -352,7 +366,7 @@ transform: rotate(-20deg);
 
 .portIcons {
   font-size: 40px;
-  color: black;
+  color: white;
 }
 .portIcons1 {
   font-size: 15px;
