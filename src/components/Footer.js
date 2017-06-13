@@ -5,7 +5,7 @@ function Footer(/*props*/) {
   return (
     <div id="footer">
       <div className="container">
-        <p className="text-muted copyright">  Copyright © Seneca Sisneros 2017</p>
+        <p className="text-muted copyright">Copyright © Seneca Sisneros 2017</p>
       </div>
     </div>
   );

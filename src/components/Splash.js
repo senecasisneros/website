@@ -7,10 +7,10 @@ class Splash extends React.Component {
   render() {
     return (
       <div className="splash">
-      <h1 id="name" className="animated fadeInUpBig">Seneca Sisneros</h1>
-      <h3 id="title">Full-Stack Javascript Developer</h3>
-      <Contact />
-    <Image className="aboutImages animated zoomIn" color='white' id="profilePic" src="https://s3.amazonaws.com/website-seneca/senecaPic.jpg" responsive thumbnail />
+        <h1 id="name" className="animated fadeInUpBig">Seneca Sisneros</h1>
+        <h3 id="title">Full-Stack Javascript Web Developer</h3>
+        <Contact />
+        <Image className="aboutImages animated zoomIn" color='white' id="profilePic" src="https://s3.amazonaws.com/website-seneca/senecaPic.jpg" responsive thumbnail />
       </div>
     );
   }
