@@ -29,7 +29,7 @@ class NavbarPage extends React.Component {
               </LinkContainer>
             </Nav>
             <Nav pullRight>
-              <NavItem eventKey={1} href="#">Resume</NavItem>
+              <NavItem eventKey={4} href="#">Resume</NavItem>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

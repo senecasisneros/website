@@ -9,20 +9,10 @@ const App = React.createClass({
     return (
       <div>
         <NavbarPage/> {this.props.children}
-        <Footer/> 
+        <Footer/>
       </div>
     );
   }
 });
 
 export default App;
-
-// id="content"
-//
-// <div>
-//   <Header />
-//   <div id="content">
-//
-//   </div>
-//   <Footer />
-// </div>
