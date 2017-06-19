@@ -1,13 +1,3 @@
-html body{
-  /*background-color: gray;*/
-  position: absolute;
-  right: 0px;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
-/*width: 100%;
-  height: 100%;*/
-}
 
 
 /*/////////About Component//////////////*/
@@ -15,15 +5,14 @@ html body{
   background-image: url("https://s3.amazonaws.com/website-seneca/journey.jpg");
   color: black;
   background-repeat: no-repeat;
+  margin-top:20px;
+  position: absolute;
+  width: 100%;
+  height: 125%;
+  z-index: -1;
   background-size: cover;
-  background-position:center center;
-  background-attachment: fixed;
-  max-width: 100%;
-  max-height: 100%;
-  min-height: 850px;
-  min-width: 100%;
-  clear: both;
 }
+
 
 .imgAbout1 {
   height: 12%;
@@ -42,7 +31,6 @@ html body{
 
 }
 
-
 #aboutMe {
   text-align: center;
   font-size: 35px;
@@ -55,7 +43,6 @@ html body{
 #quote {
   font-family: 'Rancho', cursive;
   font-size: 150%;
-  /*margin: 5%;*/
   text-align: center;
   color: black;
   text-shadow: 1px 1px white;
@@ -65,18 +52,28 @@ html body{
   margin-top: 6%;
   margin-right: 30px;
   margin-left: 30px;
-  font-size: 175%;
+  font-size: 150%;
   font-family: 'Rancho', cursive;
   color: white;
   text-shadow: 0px 0px 3px #000;
+  overflow: hidden;
 }
 #aboutText1 {
   margin-right: 30px;
   margin-left: 30px;
-  font-size: 175%;
+  font-size: 150%;
   font-family: 'Rancho', cursive;
   color: white;
   text-shadow: 0px 0px 3px #000;
+}
+#aboutText2 {
+  margin-right: 30px;
+  margin-left: 30px;
+  font-size: 150%;
+  font-family: 'Rancho', cursive;
+  color: white;
+  text-shadow: 0px 0px 3px #000;
+  margin-bottom: 16%;
 }
 
 
@@ -117,26 +114,17 @@ html body{
 
 /*/////////Skills Component//////////////*/
 .Skills {
-  text-align: center;
-  margin-top: 1%;
   background-image: url("https://s3.amazonaws.com/website-seneca/computerDesk.jpg");
-  color: black;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center center;
-  background-attachment: fixed;
-  max-width: 100%;
-  max-height: 100%;
-  min-height: 850px;
-  min-width: 100%;
-  clear: both;
-}
-
-.skillHeader {
-  margin-top: 5px;
-  font-size: 50px;
   text-align: center;
-  font-family: 'Rancho', cursive;
+  color: black;
+  display: block;
+  max-width: 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  /*background-size: 100%;*/
+  padding-bottom: 15%;
+
+
 }
 
 .iconNew {
@@ -146,6 +134,7 @@ html body{
   float: none;
   color: white;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 h5 {
@@ -201,13 +190,10 @@ h5 {
 .portVid {
   width: 95%;
   length: 95%;
-  /*margin-top: -8px;*/
-  /*box-shadow: 5px 5px 5px #888888;*/
 }
 
 .titlePort {
   color: white;
-  /*text-shadow: 1px 1px white;*/
   margin-top: 25%;
   font-size: 35px;
 }
@@ -232,20 +218,16 @@ h5 {
   font-family: 'Rancho', cursive;
   font-size: 100px;
   font-size: 500%;
-  margin-top: 5%;
+  padding-top: 5%;
 }
 
 #title {
   font-size: 200%;
   font-family: 'Rancho', cursive;
   margin-bottom: 0;
-  /*font-family: 'Gloria Hallelujah', cursive;*/
 }
 
-/*#content {
-padding-top: 70px;
-min-height: ~"calc(100vh - 92px)";
-}??*/
+
 
 /*/////////Navbar Component//////////////*/
 .navbar {
@@ -259,11 +241,13 @@ min-height: ~"calc(100vh - 92px)";
 
 .navbar-inverse {
   background-color: #262626;
+  border-bottom: solid 1px white;
 }
 
 .navbar-inverse .navbar-nav > li > a {
   color: white;
 }
+
 
 .navbar-inverse .navbar-brand {
   color: white;
@@ -306,8 +290,6 @@ min-height: ~"calc(100vh - 92px)";
   width: 100%;
   background-color: #262626;
   text-align: center;
-  /*position: fixed;*/
-  /*bottom: 0;*/
   border-top: white solid 1px;
 }
 
@@ -319,13 +301,13 @@ min-height: ~"calc(100vh - 92px)";
   width: 50px;
 }
 
-
 .navbar-brand {
   display: flex;
   align-items: center;
 }
+
 .navbar-brand>img {
-  padding: 7px 14px;
+  /*padding: 7px 14px;*/
 }
 
 .aboutImages {
@@ -364,4 +346,13 @@ min-height: ~"calc(100vh - 92px)";
 
 .portIcons:hover {
   color: rgb(23, 70, 131);
+}
+
+
+.navbar > li > a {
+  padding: 10px 47px;
+}
+
+#profilePic {
+  width: 15%;
 }
