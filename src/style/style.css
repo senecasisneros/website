@@ -4,12 +4,6 @@
 .About {
   background-image: url("https://s3.amazonaws.com/website-seneca/journey.jpg");
   color: black;
-  /*background-repeat: no-repeat;
-  margin-top:20px;
-  position: absolute;
-  width: 100%;
-  height: 125%;
-  z-index: -1;*/
   background-size: cover;
   display: block;
   max-width: 100%;
@@ -119,13 +113,10 @@
   background-image: url("https://s3.amazonaws.com/website-seneca/computerDesk.jpg");
   text-align: center;
   color: black;
-  /*display: block;*/
   max-width: 100%;
   background-color: black;
   background-repeat: no-repeat;
   padding-bottom: 25%;
-
-
 }
 
 .iconNew {
@@ -156,7 +147,7 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   max-width: 100%;
   max-height: 100%;
   min-height: 900px;
@@ -164,26 +155,34 @@ h5 {
   clear: both;
 }
 
-.portTitle {
-  margin-bottom: 0;
-  font-size: 50px;
-  text-align: center;
-  font-family: 'Rancho', cursive;
-  /*font-family: 'Gloria Hallelujah', cursive;*/
+.descripAppDD {
+  font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 55px;
+    margin-top: 10%;
 }
 
-.textPort {
-  font-size: 20px;
-}
-.textPortMoon {
-  font-size: 20px;
-  margin-top: 10%;
+.descripAppM {
+  font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 9%;
+    /*margin-top: 23px;*/
 }
 
-.textInfo {
-  font-size: 20px;
+
+.descripAppMoon {
+  font-size: 25px;
+  margin-top: 18%;
+  /*margin-top: 60px;*/
+  text-shadow: 1px 1px 1px black;
+}
+
+.PortTechUsed {
+  font-size: 25px;
   color: white;
   margin-top: 15px;
+  text-shadow: 1px 1px 1px black;
+
 }
 
 .portVid {
@@ -335,6 +334,12 @@ h5 {
 .port-icons {
   text-align: center;
   margin-top: -25px;
+}
+
+.port-iconsMM {
+  text-align: center;
+  margin-top: -25px;
+  padding-bottom: 50px;
 }
 
 .portIcons {
