@@ -4,13 +4,18 @@
 .About {
   background-image: url("https://s3.amazonaws.com/website-seneca/journey.jpg");
   color: black;
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;
   margin-top:20px;
   position: absolute;
   width: 100%;
   height: 125%;
-  z-index: -1;
+  z-index: -1;*/
   background-size: cover;
+  display: block;
+  max-width: 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  padding-bottom: 15%;
 }
 
 
@@ -38,6 +43,8 @@
   padding-top: 5%;
   color: black;
   text-shadow: 1px 1px white;
+
+
 }
 
 #quote {
@@ -52,28 +59,34 @@
   margin-top: 6%;
   margin-right: 30px;
   margin-left: 30px;
-  font-size: 150%;
-  font-family: 'Rancho', cursive;
+  font-size: 170%;
+  font-family: 'Rancho';
   color: white;
-  text-shadow: 0px 0px 3px #000;
+  /*text-shadow: 0px 0px 3px #000;*/
   overflow: hidden;
+
+  text-shadow: 0 1px 0 black;
 }
 #aboutText1 {
   margin-right: 30px;
   margin-left: 30px;
-  font-size: 150%;
+  font-size: 170%;
   font-family: 'Rancho', cursive;
   color: white;
-  text-shadow: 0px 0px 3px #000;
+  /*text-shadow: 0px 0px 3px #000;*/
+  text-shadow: 0 1px 0 black;
+
 }
 #aboutText2 {
   margin-right: 30px;
   margin-left: 30px;
-  font-size: 150%;
+  font-size: 170%;
   font-family: 'Rancho', cursive;
   color: white;
-  text-shadow: 0px 0px 3px #000;
-  margin-bottom: 16%;
+  /*text-shadow: 0px 0px 3px #000;*/
+  /*margin-bottom: 16%;*/
+  text-shadow: 0 1px 0 black;
+
 }
 
 
@@ -85,11 +98,11 @@
 
 .social-icons {
   text-align: center;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 .icons {
-  font-size: 50px;
+  font-size: 400%;
   color: white;
 }
 
@@ -143,7 +156,8 @@ h5 {
 }
 
 .row-centered {
-  text-align:center;
+  text-align: center;
+  margin-top: 5%;
 }
 
 
@@ -216,18 +230,22 @@ h5 {
 
 #name {
   font-family: 'Rancho', cursive;
-  font-size: 100px;
-  font-size: 500%;
-  padding-top: 5%;
+  font-size: 700%;
+  padding-top: 1%;
+  color: white;
+  text-shadow: 1px 1px black;
+  /*margin-bottom: -20%;*/
+
 }
 
 #title {
-  font-size: 200%;
+  text-shadow: 1px 1px black;
+  font-size: 240%;
   font-family: 'Rancho', cursive;
-  margin-bottom: 0;
+  color: white;
+  /*margin-bottom: 0;*/
+  margin-top: -20px;
 }
-
-
 
 /*/////////Navbar Component//////////////*/
 .navbar {
@@ -348,11 +366,22 @@ h5 {
   color: rgb(23, 70, 131);
 }
 
-
 .navbar > li > a {
   padding: 10px 47px;
 }
 
 #profilePic {
+  width: 20%;
+  /*width: 150px;*/
+  /*margin-top: 2%;*/
+  box-shadow: 6px 6px 5px black;
+  min-width: 200px;
+}
+#profilePic2 {
   width: 15%;
+  margin-top: 3%
+}
+#profilePic3 {
+  width: 20%;
+  margin-top: 3%
 }
