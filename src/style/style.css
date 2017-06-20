@@ -119,24 +119,20 @@
   background-image: url("https://s3.amazonaws.com/website-seneca/computerDesk.jpg");
   text-align: center;
   color: black;
-  display: block;
+  /*display: block;*/
   max-width: 100%;
   background-color: black;
   background-repeat: no-repeat;
-  /*background-size: 100%;*/
-  padding-bottom: 15%;
+  padding-bottom: 25%;
 
 
 }
 
 .iconNew {
   width: 140px;
-  length: 150px;
   display: inline-block;
   float: none;
   color: white;
-  margin-top: 5%;
-  margin-bottom: 5%;
 }
 
 h5 {
@@ -145,8 +141,8 @@ h5 {
 }
 
 .row-centered {
-  text-align: center;
-  margin-top: 5%;
+  margin-top: 8%;
+  margin-bottom: 50px;
 }
 
 
