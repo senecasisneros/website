@@ -5,34 +5,34 @@
   background-image: url("https://s3.amazonaws.com/website-seneca/journey.jpg");
   color: black;
   background-size: cover;
-  display: block;
+  /*display: block;*/
   max-width: 100%;
   background-color: black;
   background-repeat: no-repeat;
-  padding-bottom: 15%;
+  padding-bottom: 35%;
+  clear: both;
 }
 
 
 .imgAbout1 {
-  height: 12%;
-  width: 15.7%;
+  width: 14.5%;
   float: right;
   margin-top: 2%;
   margin-right: 1%;
+  min-width: 125px;
 }
 
 .imgAbout2{
-  height: 12%;
-  width: 12%;
+  width: 11%;
   float: right;
   margin-top: 2%;
   margin-right: 2%;
-
+  min-width: 97px;
 }
 
 #aboutMe {
   text-align: center;
-  font-size: 35px;
+  font-size: 45px;
   font-family: 'Rancho', cursive;
   padding-top: 5%;
   color: black;
@@ -50,14 +50,15 @@
 }
 
 #aboutText {
-  margin-top: 6%;
-  margin-right: 30px;
+  /*margin-top: 6%;*/
+  margin-right: 10px;
   margin-left: 30px;
   font-size: 170%;
   font-family: 'Rancho';
   color: white;
   /*text-shadow: 0px 0px 3px #000;*/
-  overflow: hidden;
+  /*overflow: hidden;*/
+
 
   text-shadow: 0 1px 0 black;
 }
@@ -69,6 +70,9 @@
   color: white;
   /*text-shadow: 0px 0px 3px #000;*/
   text-shadow: 0 1px 0 black;
+
+
+
 
 }
 #aboutText2 {
@@ -207,7 +211,7 @@ h5 {
   background-attachment: fixed;
   max-width: 100%;
   max-height: 100%;
-  min-height: 850px;
+  min-height: 950px;
   min-width: 100%;
   clear: both;
 }
