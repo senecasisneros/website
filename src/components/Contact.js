@@ -12,28 +12,34 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="social-div">
-        <ul className="social-icons">
-          <li className="socialLi">
+          <div className="socialLi">
             <a href="https://github.com/senecasisneros" target="_blank">
-              <h1 className="icons"><GitHub /></h1>
+            <img id='github' className="icons" src='../src/style/image/GitHub.png' />
+
+              {/* <h1 className="icons"><GitHub /></h1> */}
             </a>
-          </li>
-          <li className="socialLi">
+          </div>
+          <div className="socialLi">
             <a href="https://twitter.com/sen427" target="_blank">
-              <h1 className="icons"><Twitter /></h1>
+            {/* <img className="icons1111" src='../src/style/image/twitter.png' /> */}
+            <img id='twiter' className="icons" src='../src/style/image/Twitter_Social.png' />
+              {/* <h1 className="icons"><Twitter /></h1> */}
             </a>
-          </li>
-          <li className="socialLi">
+          </div>
+          <div className="socialLi">
             <a href="https://www.linkedin.com/in/seneca-sisneros-55a63a51" target="_blank">
-              <h1 className="icons"><Linkedin /></h1>
+              <img id="linkedin" className="icons" src='../src/style/image/Linkedin.png' />
+
+              {/* <h1 className="icons"><Linkedin /></h1> */}
             </a>
-          </li>
-          <li className='socialLi'>
+          </div>
+          <div className='socialLi'>
             <a href="mailto:seneca.sisneros@yahoo.com" target="_blank">
-                <h1 className="icons"><Email /></h1>
+              <img id="email" className="icons" src='../src/style/image/Yahoo.png' />
+
+                {/* <h1 className="icons"><Email /></h1> */}
             </a>
-          </li>
-      </ul>
+          </div>
       </div>
     );
   }
@@ -43,3 +49,37 @@ export default Contact;
 
 
 {/* <Button bsStyle="primary" bsSize="large" className="emailBtn"><a href="mailto:seneca.sisneros@yahoo.com" id="emailLink">Send Email</a></Button> */}
+
+
+
+//
+// <ul className="social-icons">
+//   <li className="socialLi">
+//     <a href="https://github.com/senecasisneros" target="_blank">
+//     <img id='github' className="icons" src='../src/style/image/GitHub.png' />
+//
+//       {/* <h1 className="icons"><GitHub /></h1> */}
+//     </a>
+//   </li>
+//   <li className="socialLi">
+//     <a href="https://twitter.com/sen427" target="_blank">
+//     {/* <img className="icons1111" src='../src/style/image/twitter.png' /> */}
+//     <img id='twiter' className="icons" src='../src/style/image/Twitter_Social.png' />
+//       {/* <h1 className="icons"><Twitter /></h1> */}
+//     </a>
+//   </li>
+//   <li className="socialLi">
+//     <a href="https://www.linkedin.com/in/seneca-sisneros-55a63a51" target="_blank">
+//       <img id="linkedin" className="icons" src='../src/style/image/Linkedin.png' />
+//
+//       {/* <h1 className="icons"><Linkedin /></h1> */}
+//     </a>
+//   </li>
+//   <li className='socialLi'>
+//     <a href="mailto:seneca.sisneros@yahoo.com" target="_blank">
+//       <img id="email" className="icons" src='../src/style/image/Yahoo.png' />
+//
+//         {/* <h1 className="icons"><Email /></h1> */}
+//     </a>
+//   </li>
+// </ul>
