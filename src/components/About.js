@@ -6,7 +6,6 @@ import animated from 'animate.css';
 class About extends React.Component {
 
   render() {
-    let url = 'https://s3.amazonaws.com/website-seneca/asphalt2.jpg';
     return (
       <div className="About">
         <Image className="imgAbout2 animated flip" src="https://s3.amazonaws.com/website-seneca/Pups.jpg" responsive thumbnail />
@@ -14,16 +13,11 @@ class About extends React.Component {
         <div className="allText">
           <h1 id="aboutMe" className="animated rubberBand">Hi! My name is Seneca and this is my story....</h1>
           <h5 id="quote">The most dangerous thing you can do in life is play it safe. -Casey Neistat</h5>
-          <p id="aboutText">If someone told me a few years ago that my days at the Bank were numbered, more than likely, my face would be wearing an expression of pure panic and dread.
-      After all, at that point, I had spent nearly 10 years with the Bank, building a career around sales and lending and doing what I was supposed to,  climbing the corporate ladder.</p>
-          <p id="aboutText1">I bought my house, setup my retirement, and worked long and hard in order to achieve comfort and  financial security. How could I possibly maintain my success without my career?</p>
-          <p id="aboutText2">But looking back, I now realize, I had not achieved what I  now consider true success. I was still missing some really important things in my life and truth be told, knowing what I know now, I find it hard to believe I ever thought  my days at the Bank were not numbered.</p>
-          <p id="aboutText2">Don't get me wrong, I am incredibly grateful for the  skills, experiences, and lessons I received during my previous career. I am also very happy I was able to
-  Build a foundation and achieve the security that I worked so hard to obtain. Realistically, it’s one of the primary reasons I am where I am today.
-  But the things I value most in life, the things that define the person I am today, and the things that I want people to know about me,  were missing from that equation. Because the person I am today, is a result of a personal and professional transformation, and a decision to, “not play it safe”. The person I am today, if told their life was going to dramatically change in a few years,  would not look at you with an expression of pure dread. But rather</p>
-          <p id="aboutText3">So what are these things you ask? Well, there’s quite of few, but if you really want to learn “about me”, then you should know I value …</p>
-        </div>
+          <p id="aboutText">If someone would have come to me a few years ago and told me my life was about to take a 180-degree turn, and that my days working at the Bank were numbered, I would have laughed it off to cover up the anxiety of the very thought. At that time, I had already spent nearly 10 years building a career with the Bank, navigating my way through sales and lending, all while trying to climb the corporate ladder. So, the very thought that all of that would someday be gone, especially if by my own choice, would most definitely not be something I saw as a positive impact on my future.</p>
+          <p id="aboutText1">Don’t get me wrong, my time at the Bank provided me with years of experience, and a set of invaluable skills that have helped me get where I am today. But despite that, there was something big missing from my definition of success.  Eventually I did come to realize the true meaning of Casey Neitstat’s quote. What I considered safe, was actually the most dangerous thing I could do. For that reason, I decided it was time for me to make a big change and take a chance to discover what I was missing. It was time for me to discover my passion and pursue my dream of working in the tech industry.  A decision that has helped shape the person I am today. </p>
+          <p id="aboutText3">So, who exactly am I? Well, I’m definitely more than just a self- taught Full-Stack Web Developer. I’m an individual who went through a massive personal and professional transformation over the past few years that I am extremely grateful for. A transformation, that not only challenged me, but helped me identify my strengths and weaknesses, and helped me learn how to work them to my advantage. I am also a self-motivated, passionate individual that doesn’t give up easily. I am a person that willingly gave up all comfort and financial security and placed a bet on myself, knowing I needed, and wanted, to make a bigger contribution in this world. I love hanging out with my two spoiled dogs, exploring new places, kickboxing, juicing and crystals. I push myself every day to learn something new, grow my faith and challenge myself to become a better person. This is just the start of my journey, and I’m excited to see what comes next.</p>
       </div>
+    </div>
     );
   }
 }

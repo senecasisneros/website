@@ -62,7 +62,7 @@
   font-size: 170%;
   font-family: 'Rancho', cursive;
   color: white;
-  /*text-shadow: 0px 0px 10px black;*/
+  text-shadow: 0px 0px 10px black;
 }
 
 #aboutText2 {
@@ -71,7 +71,7 @@
   font-size: 170%;
   font-family: 'Rancho', cursive;
   color: white;
-  /*text-shadow: 0px 0px 10px black;*/
+  text-shadow: 0px 0px 10px black;
 }
 
 #aboutText3 {
@@ -81,7 +81,7 @@
   font-size: 170%;
   font-family: 'Rancho', cursive;
   color: white;
-  /*text-shadow: 0px 0px 10px black;*/
+  text-shadow: 0px 0px 10px black;
 }
 
 /*/////////Contact Component//////////////*/
