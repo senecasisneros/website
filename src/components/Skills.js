@@ -1,8 +1,6 @@
 import React from 'react';
-// import {Image} from 'react-bootstrap';
 import animated from 'animate.css';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
-
 
 class Skills extends React.Component {
   render() {
@@ -68,4 +66,4 @@ class Skills extends React.Component {
   }
 }
 
-        export default Skills;
+export default Skills;

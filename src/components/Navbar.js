@@ -38,13 +38,3 @@ class NavbarPage extends React.Component {
   }
 }
 export default NavbarPage;
-
-
-
-{/* <Nav pullRight>
-  <NavItem eventKey={1} href="#">Resume</NavItem>
-</Nav> */}
-
-
-{/* <Image className="logo" src='/src/style/image/Picture1.png' />
-<a className='logo' href="#">Seneca</a> */}

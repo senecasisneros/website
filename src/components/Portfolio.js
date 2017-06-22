@@ -38,9 +38,6 @@ class Portfolio extends React.Component {
                   <h1 className="portIconsMusic"><GitHub /></h1>
                 </a>
               </li>
-              {/* <li className="portLi">
-                <a href="" target="_blank"><Button className="portIcons1"><Launch />  Vist the website</Button></a>
-              </li> */}
             </ul>
           </Col>
           <Col xs={12} sm={4} lg={4}>
