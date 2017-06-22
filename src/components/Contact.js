@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 
 class Contact extends React.Component {
   render() {
@@ -17,7 +16,7 @@ class Contact extends React.Component {
         </div>
         <div className="socialLi">
           <a href="https://www.linkedin.com/in/seneca-sisneros-55a63a51" target="_blank">
-            <img id="linkedin" className="icons" src='../src/style/image/linkedin.png' />
+            <img id='linkedin' className="icons" src='https://s3.amazonaws.com/website-seneca/linkedin.png' />
           </a>
         </div>
         <div className='socialLi'>
