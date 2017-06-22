@@ -3,7 +3,12 @@
 /*/////////About Component//////////////*/
 .About {
   /*background-image: url("https://s3.amazonaws.com/website-seneca/journey.jpg");*/
-  background-image: url("https://s3.amazonaws.com/website-seneca/asphalt2.jpg");
+  background-image:
+   linear-gradient(
+     rgba(0, 0, 0, 0.5),
+     rgba(0, 0, 0, 0.5)
+   ),
+  url("https://s3.amazonaws.com/website-seneca/asphalt2.jpg");
   color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,6 +18,7 @@
   min-height: 900px;
   min-width: 100%;
   clear: both;
+/*filter: brightness(40%) contrast(70%);*/
 }
 
 .imgAbout1 {
@@ -36,25 +42,28 @@
   font-size: 45px;
   font-family: 'Rancho', cursive;
   padding-top: 5%;
-  color: black;
-  text-shadow: 1px 1px white;
+  color: white;
+  text-shadow: 3px 3px black;
 }
 
 #quote {
   font-family: 'Rancho', cursive;
-  font-size: 150%;
+  font-size: 170%;
   text-align: center;
-  color: black;
-  text-shadow: 1px 1px white;
+  color: white;
+  text-shadow: 3px 3px black;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 #aboutText {
   margin-right: 10px;
   margin-left: 30px;
+  margin-top: 50px;
   font-size: 170%;
   font-family: 'Rancho';
   color: white;
-  text-shadow: 0px 0px 10px black;
+  /*text-shadow: 0px 0px 10px black;*/
 }
 #aboutText1 {
   margin-right: 30px;
@@ -62,7 +71,7 @@
   font-size: 170%;
   font-family: 'Rancho', cursive;
   color: white;
-  text-shadow: 0px 0px 10px black;
+  /*text-shadow: 0px 0px 10px black;*/
 }
 
 #aboutText2 {
@@ -71,7 +80,7 @@
   font-size: 170%;
   font-family: 'Rancho', cursive;
   color: white;
-  text-shadow: 0px 0px 10px black;
+  /*text-shadow: 0px 0px 10px black;*/
 }
 
 #aboutText3 {
@@ -81,7 +90,7 @@
   font-size: 170%;
   font-family: 'Rancho', cursive;
   color: white;
-  text-shadow: 0px 0px 10px black;
+  /*text-shadow: 0px 0px 10px black;*/
 }
 
 /*/////////Contact Component//////////////*/
