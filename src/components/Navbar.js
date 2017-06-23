@@ -29,7 +29,7 @@ class NavbarPage extends React.Component {
               </LinkContainer>
             </Nav>
             <Nav pullRight>
-              <NavItem eventKey={4} href="#">Resume</NavItem>
+            <Navbar.Link id="resume" eventKey={4} href="https://www.dropbox.com/s/hl31h89wtzez6j4/Seneca_Sisneros%20%281%29.pdf?dl=0" target="_blank">Resume</Navbar.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
