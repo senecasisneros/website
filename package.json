@@ -11,6 +11,9 @@
     "test:watch": "npm run test -- --watch",
     "lint": "./node_modules/.bin/esw -w --color --fix ./src/ ./server/"
   },
+  "engines": {
+    "node": "8.2.1"
+  },
   "author": "Seneca Sisneros",
   "license": "ISC",
   "devDependencies": {
